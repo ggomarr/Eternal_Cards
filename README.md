@@ -1,5 +1,4 @@
-# Eternal-Cards
-Eternal Card Collection Extractor
+# Eternal Card Collection Extractor
 
 This project was a lot of fun - it includes simulating mouse activity and taking screenshots on one end, and image feature extraction and classification (in a library of 1000+ options) on the other. Plus, it helped me continue using the great deck search offered by Eternal Warcry when Extesy's deck tracker stopped being updated. (Come back! We miss you!).
 
