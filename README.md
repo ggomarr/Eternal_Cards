@@ -9,4 +9,4 @@ In order to use it you will need some Python knowledge, including how to run Jup
 
 Have fun with this, and keep playing!
 
-My special thanks goes to Eternal Warcry for allowing me to use their assets.
+Special thanks to Eternal Warcry for allowing me to use their assets!
