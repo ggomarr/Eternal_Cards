@@ -6,7 +6,7 @@ Unfortunately a full run takes some 10 min, but I guess that is the price you pa
 
 It is not quite for the faint of heart, for it may require tweaking if you want to use it. Take it as a learning opportunity and I will do what I can to help you out, just let me know!
 
-In order to use it you will need some Python knowledge, including how to run Jupyter notebooks and how to install packages. If you are familiar with the language you can probably take the code and build your own script though.
+In order to use it you will need some Python knowledge, including how to run Jupyter notebooks and how to install packages. The Jupyter notebook does not seem to be opening properly directly in github though; I have also uploaded an html export so that you can see what it looks like. If you are familiar with Python you can probably take the code and build your own script.
 
 Have fun with this, and keep playing!
 
