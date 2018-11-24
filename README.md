@@ -6,7 +6,7 @@ Unfortunately a full run takes some 10 min, but I guess that is the price you pa
 
 It is not quite for the faint of heart, because the card location parameters may require some tweaking. Take it as a learning opportunity and I will do what I can to help you out, just let me know!
 
-In order to use it you will need some Python knowledge, including how to run Jupyter notebooks and how to install packages. There is also a Python script with the same code as the notebook, but the notebook is much easier to follow.
+In order to use it you will need some Python knowledge, including how to run Jupyter notebooks and how to install packages. There are also Python scripts with the same code as the notebook, but the notebook is much easier to follow.
 
 Have fun with this, and keep playing!
 
