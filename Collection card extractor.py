@@ -123,6 +123,3 @@ for card in library:
                                                         library[card]['id']))
 with open(collection_file,'w') as f:
     f.writelines([card+'\n' for card in my_collection])
-
-for error in errors:
-	print(error)
