@@ -18,3 +18,14 @@ SOME HINTS
   - pip3 install --user opencv-python==3.4.2.16
   - pip3 install --user opencv-contrib-python==3.4.2.16
 - The packages opencv-python and open-contrib-python seemed to be needed for SIFT to work
+
+CHANGELOG
+
+20190120 - v.0.5
+
+The 0.4 version performed very badly with the new Defiance set, so I went in and reworked the tool a bit (and integrated u/Sekers' feedback - thanks!):
+- Made sure the Eternal Warcry card sections used to extract features for the library and those from the screenshots were properly aligned
+- Added a bit of blurring to the Eternal Warcry card sections used to extract features to better match what I was getting from the screenshots
+- Split the library by set so that none of the resulting files is too large
+- Added an improved screenshot comparator so that no duplicate screenshots are taken, hopefully
+- Added some hints to the README
