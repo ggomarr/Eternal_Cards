@@ -26,7 +26,7 @@ CHANGELOG
 The 0.4 version performed very badly with the new Defiance set, so I went in and reworked the tool a bit (and integrated u/Sekers' feedback - thanks!):
 - Made sure the Eternal Warcry card sections used to extract features for the library and those from the screenshots were properly aligned
 - Added a bit of blurring to the Eternal Warcry card sections used to extract features to better match what I was getting from the screenshots
-- Split the library by set so that none of the resulting files is too large
+- Split the library by card set so that none of the resulting files is too large for Github
 - Added an improved screenshot comparator so that no duplicate screenshots are taken, hopefully
 - Added some hints to the README
 - Added an option to simulate a mouse over every card before taking sreenshots to remove the 'NEW' aura. It is disabled by default so that the script does not make any changes in your collection; if you want to use it you will need to change the remove_new_aura flag in the code from False to True
