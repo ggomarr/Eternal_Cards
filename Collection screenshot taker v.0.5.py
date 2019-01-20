@@ -20,9 +20,9 @@ eternal_x,eternal_y=10,10
 next_x,next_y=0.855*pyautogui.size()[0],0.525*pyautogui.size()[1]
     # Position to click to move to the next collection page
 
-remove_new_aura=True
+remove_new_aura=False
     # Flag signaling whether the shinyness around new cards should be removed
-    # Before taking the screenshots
+    # before taking the screenshots
 sep_x,sep_y=int(0.1218*pyautogui.size()[0]),int(0.3852*pyautogui.size()[1])
     # Represents the distances between equivalent positions of cards on the screenshot,
     # i.e., 'top left to top left' or 'center to center', or whatever
