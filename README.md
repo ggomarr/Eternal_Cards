@@ -29,3 +29,4 @@ The 0.4 version performed very badly with the new Defiance set, so I went in and
 - Split the library by set so that none of the resulting files is too large
 - Added an improved screenshot comparator so that no duplicate screenshots are taken, hopefully
 - Added some hints to the README
+- Added an option to simulate a mouse over every card before taking sreenshots to remove the 'NEW' aura. It is disabled by default so that the script does not make any changes in your collection; if you want to use it you will need to change the remove_new_aura flag in the code from False to True
