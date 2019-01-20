@@ -5,6 +5,7 @@ import pyautogui
 import PIL
 from PIL import ImageChops
 import numpy as np
+import time
 
 screenshots_folder='./Screenshots/'
     # Where to save screenshots
@@ -12,7 +13,7 @@ max_screenshots=150
     # Stop after so many screenshots if the end condition is not met
 avg_diff_cutoff=5
     # Screenshot average pixel value to consider two screenshots identical
-same_img_limit=5
+same_img_limit=3
     # Number of identical sequential screenshots to determine the end of the collection has been reached
 eternal_x,eternal_y=10,10
     # Position to click on in order to bring Eternal to the foreground
@@ -40,8 +41,10 @@ old_screenshot=PIL.Image.new('RGB',pyautogui.size())
 while (cnt_ss<max_screenshots) and (cnt_same<same_img_limit):
     cnt_ss=cnt_ss+1
     if remove_new_aura:
+        time.sleep(0.1)
         for card_x,card_y in pos_lst:
             pyautogui.moveTo(card_x,card_y)
+        pyautogui.moveTo(next_x,next_y)
     new_screenshot=pyautogui.screenshot()
     if np.asarray(ImageChops.difference(old_screenshot,new_screenshot)).mean()>avg_diff_cutoff:
         cnt_same=0
